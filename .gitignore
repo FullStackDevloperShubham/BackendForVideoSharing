@@ -1,0 +1,41 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn.lock
+
+# Environment variables
+.env
+.env.sample
+
+# Logs
+logs
+*.log
+debug.log
+
+# Build files
+dist/
+build/
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
+
+# System files
+Thumbs.db
+
+# MongoDB data
+/data/db
+
+# Next.js specific files
+.next/
+
+# Express sessions
+sessions/
+
+# Coverage reports
+coverage/
+
+# Misc
+*.swp
+*.swo
