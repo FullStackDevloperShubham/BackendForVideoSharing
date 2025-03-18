@@ -1,4 +1,6 @@
 import mongoose ,{Schema} from "mongoose";
+import mognooseAggregatePainate from 'mongoose-aggregate-paginate-v2'
+
 
 const commentsSchema = new Schema({
     content:{
@@ -14,3 +16,7 @@ const commentsSchema = new Schema({
         ref: 'User',
     },
 },{timestamps: true})
+
+commentsSchema.plugin(mognooseAggregatePainate)
+
+export const Comment = mongoose.model('Comment' , commentsSchema)
