@@ -1,5 +1,6 @@
 import { Router } from 'express'
 import { helthCheck } from '../controllers/helthCheck.controller.js'
+import { upload } from '../middlewares/multer.midlleware.js'
 
 const router = Router()
 
