@@ -32,5 +32,5 @@ app.use('/api/v1/users', userRouter)
 
 
 
-app.use(errorHandlert)
+// app.use(errorHandlert)
 export { app }
